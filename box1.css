@@ -1,0 +1,5 @@
+.box1{
+    grid-area: 1/2/2/7;
+    border-bottom: 10px solid rgba(207, 184, 4, 0.973);
+
+}

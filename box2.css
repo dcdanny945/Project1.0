@@ -1,0 +1,8 @@
+.box2{
+
+    grid-area: 1/1/7/1;
+    /*z-index: 1;*/
+    border-right: 10px solid rgba(207, 184, 4, 0.973);
+    /*padding-left: 30px;*/
+    
+  }

@@ -1,0 +1,7 @@
+.box3{
+  grid-area: 6/2/auto/7;
+  border-top: 10px solid rgba(207, 184, 4, 0.973);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

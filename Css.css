@@ -1,0 +1,102 @@
+@import"box1.css";
+
+@import"box2.css";
+
+@import"box3.css";
+.h1{
+  font-style: italic;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  background-color: rgb(35, 34, 34);
+  color: antiquewhite;
+}
+.container{
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-rows: auto;
+  grid-template-columns:auto;
+}
+@media screen and (max-width:768px){
+  .container{
+    grid-template-rows: auto;
+    grid-template-rows: auto;
+  }
+}
+
+.box4{
+  grid-area:2/2/auto/7 ;
+  text-align: left;
+  font-size: 19px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.cat{
+  padding-top: 20px;
+  margin: auto;
+  max-width:50%;
+  max-height:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links{
+  color: antiquewhite;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+  background-color:rgb(35, 34, 34);
+  font-size: 20px;
+  overflow: hidden;
+  padding: 0;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#facebookButton{
+  background-image: url('/Project1.0/images/logo-facebook.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 15px;
+  color: antiquewhite;
+  font-size: 12px;
+  height: 50px;
+  width: 50px;
+  }
+#twitter{
+  background-image: url(/Project1.0/images/logo-tumblr.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 15px;
+  color: antiquewhite;
+  font-size: 12px;
+  height: 50px;
+  width: 50px;
+}
+#linkedin{
+  background-image: url(/Project1.0/images/logo-linkedin.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 15px;
+  color: antiquewhite;
+  font-size: 12px;
+  height: 50px;
+  width: 50px;
+}
+.button:hover{
+  background-color: transparent;
+}
+.button:active{
+  background-color: transparent;
+}
