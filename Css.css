@@ -21,7 +21,7 @@ body{
 @media screen and (max-width:768px){
   .container{
     grid-template-rows: auto;
-    grid-template-rows: auto;
+    grid-template-columns: auto;
   }
 }
 
@@ -35,8 +35,8 @@ body{
 .cat{
   padding-top: 20px;
   margin: auto;
-  max-width:50%;
-  max-height:50%;
+  width:50%;
+  height:50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -71,7 +71,7 @@ body{
   width: 50px;
   }
 #twitter{
-  background-image: url(/Project1.0/images/logo-tumblr.svg);
+  background-image: url('/Project1.0/images/logo-tumblr.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body{
   width: 50px;
 }
 #linkedin{
-  background-image: url(/Project1.0/images/logo-linkedin.svg);
+  background-image: url('/Project1.0/images/logo-linkedin.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
